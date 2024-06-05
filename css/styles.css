@@ -148,13 +148,14 @@ ul, ol {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    block-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-container {
-  
+    text-align: center;
 }
 
 .hero-title {
@@ -172,8 +173,6 @@ ul, ol {
 }
 
 .button {
-    width: 636px;
-    margin: 0 auto;
 }
 
 .hero-btn {
@@ -292,6 +291,7 @@ ul, ol {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-item .team-item-img {
@@ -318,6 +318,37 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.team-social-item .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+.team-social-item .link:hover,
+.team-social-item .link:focus {
+    background-color: #404bbf;
+}
+
+.team-social-icon {
+    width: 16px;
+    height: 16px;
+    fill: var(--color-icon, #f4f4fd);
 }
 
 /*--------------portfolio----------------*/
