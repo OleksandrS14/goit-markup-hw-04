@@ -204,7 +204,10 @@ ul, ol {
 
 .features {
     padding: 120px 0;
-    width: 1128px;
+}
+
+.container features-container {
+    display: flex; align-items: center; justify-content: center;
 }
 
 
