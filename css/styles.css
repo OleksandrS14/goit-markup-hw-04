@@ -497,7 +497,7 @@ ul, ol {
     margin-right: 120px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline
 }
 
 .footer-text-social {
