@@ -459,6 +459,7 @@ ul, ol {
     align-items: baseline;
     padding: 0 15px;
     box-sizing: border-box;
+    margin-right: 120px;
 }
 
 .footer-container {
